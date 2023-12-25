@@ -11,9 +11,7 @@ const safelist = [
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
-
   theme: "yun",
-
   themeConfig: {
     banner: {
       enable: true,
@@ -22,7 +20,10 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
       },
     },
-
+    notice: {
+      enable: false,
+      content: '114514'
+    },
     pages: [
       {
         name: "我的小伙伴们",
@@ -39,13 +40,16 @@ export default defineValaxyConfig<UserThemeConfig>({
     ],
 
     footer: {
-      since: 2016,
+      since: 2023,
       beian: {
         enable: true,
         icp: "豫ICP备2023037704号",
       },
+      
       icon: {
-        // enable: false
+        // enable: true,
+        name: 'Copyright © 2022 - 2023',
+        title: 'Copyright © 2022 - 2023',
       },
       // powered: false,
     },
