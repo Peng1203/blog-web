@@ -7,8 +7,8 @@ export default defineSiteConfig({
   author: {
     name: "Peng",
     avatar:
-      "https://peng-1302604454.cos.ap-guangzhou.myqcloud.com/%E5%AE%B5%E5%AE%AB.gif",
-      // "http://peng-cloud-storage.test.upcdn.net/user-avatar/%E5%AE%B5%E5%AE%AB.gif",
+      // "https://peng-1302604454.cos.ap-guangzhou.myqcloud.com/%E5%AE%B5%E5%AE%AB.gif",
+      "http://peng-cloud-storage.test.upcdn.net/user-avatar/%E5%AE%B5%E5%AE%AB.gif",
     status: {
       emoji: "🤤",
       message: "",
