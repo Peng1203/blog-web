@@ -125,6 +125,12 @@ docker run -d \
 	-e MYSQL_ROOT_PASSWORD=root \
 	mysql
 ``````
+docker run -d \
+	--name mysql_5.6 \
+	-p 3307:3306 \
+	-e TZ=Asia/Shanghai \
+	-e MYSQL_ROOT_PASSWORD=114514m.. \
+	mysql:5.6.50
 
 ### 完整命令
 
